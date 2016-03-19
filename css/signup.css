@@ -32,3 +32,12 @@ table{
   border: 1px #e7e7dd solid;
   margin: 10px;
 }
+.form-basic-info{
+  margin-top: 50px; 
+}
+.no-padding{
+  padding-left: 0px;
+}
+.input-width-100{
+  width: 100%;
+}
