@@ -37,7 +37,11 @@ table{
 }
 .no-padding{
   padding-left: 0px;
+  padding-right: 5px;
 }
 .input-width-100{
+  width: 100%;
+}
+.full-width{
   width: 100%;
 }
