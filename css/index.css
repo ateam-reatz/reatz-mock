@@ -1,0 +1,17 @@
+.contents{
+  background-image: url(../images/top_background.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #464646;
+}
+.first-row{
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.second-row{
+  padding-bottom: 70px;
+}
+.img-center{
+  margin: 0 auto;
+}
