@@ -5,12 +5,12 @@
   background-size: cover;
   background-color: #464646;
 }
-.first-row{
-  padding-top: 70px;
+.searchItems_list{
   padding-bottom: 70px;
 }
-.second-row{
-  padding-bottom: 70px;
+.searchItems_list.first{
+  @extend .searchItems_list;
+  padding-top: 70px;
 }
 .img-center{
   margin: 0 auto;
