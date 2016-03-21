@@ -7,6 +7,8 @@
 }
 .searchItems_list{
   padding-bottom: 70px;
+  padding-left: 70px;
+  padding-right: 70px;
 }
 .searchItems_list.first{
   @extend .searchItems_list;
