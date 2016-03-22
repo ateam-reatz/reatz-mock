@@ -14,3 +14,42 @@
   padding-left: 0px;
   padding-right: 0px;
 }
+.introProfile{
+  background-color: lightgrey;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding: 10px;
+
+}
+.introProfile_picture{
+  padding-right: 0px;
+  padding-left: 0px;
+}
+.introProfile_list{
+  list-style: none;
+  padding-right: 5px;
+  padding-left: 5px;
+  margin-bottom: 0px;
+}
+.introProfile_list.centering{
+  @extend .introProfile_list;
+  text-align: center;
+}
+.introProfile_list_item{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.introProfile_list_item.name{
+  @extend .introprofile_list_item;
+  font-size: 25px;
+  margin: 10px;
+}
+.introProfile_list_item.start{
+  @extend .introprofile_list_item;
+  color: cornflowerblue;
+}
+.intro_message{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
