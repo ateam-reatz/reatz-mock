@@ -1,0 +1,16 @@
+.header_title{
+  display: inline;
+}
+.header_button{
+  margin-left: 20px;
+}
+.contents{
+  margin-left: 40px;
+}
+.top_message{
+  color: darkorange;
+}
+.top_image{
+  padding-left: 0px;
+  padding-right: 0px;
+}
