@@ -58,4 +58,13 @@
 .details_header{
   font-weight: bold;
 }
-
+.tags_header{
+  font-weight: bold;
+}
+.tags_name{
+  color: green;
+  display: inline-block;
+  border: solid 1px green;
+  border-radius: 5px;
+  padding: 5px;
+}
