@@ -68,3 +68,50 @@
   border-radius: 5px;
   padding: 5px;
 }
+.flowTable{
+  margin-top: 20px;
+}
+.flowTableCol-first{
+  border-right: 2px solid black;
+  margin-right: -2px;
+}
+.flowTableCol-second{
+  border-left: 2px solid black;
+}
+.flowTableItem_time{
+  display: inline-block;
+  color: white;
+  background: dimgrey;
+  padding: 5px;
+}
+.flowTableItem_title{
+  display: inline-block;
+  font-weight: bold;
+}
+.flowTableItem_separater{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border-top: 1px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+  height: 100px;
+}
