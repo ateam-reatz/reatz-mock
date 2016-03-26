@@ -142,7 +142,7 @@
   border-bottom: 1px solid black;
   vertical-align: top;
   height: 60px;
-  padding: 5px;
+  padding: 4px;
 }
 .shiftTableBody_cell:first-child{
   border-left: none;
@@ -163,9 +163,20 @@
   @extend .shift_time;
   text-align: right;
 }
-
-
-
-.footer{
-  height: 100px;
+.map_img{
+  width: 100%;
+  height: 300px;
+}
+.map_header{
+  font-weight: bold;
+}
+.apply{
+  text-align: center;
+}
+.apply_button{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #395fa3;
 }
