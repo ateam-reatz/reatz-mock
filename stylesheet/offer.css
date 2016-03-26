@@ -121,24 +121,34 @@
   font-size: 12px;
 }
 .shiftTable_table{
-  border-collapse: collapse;
+  border-collapse: separate;
   width: 100%;
-  border: 1px solid black;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
   border-radius: 5px;
   table-layout: fixed;
 }
 .shiftTableHeader_cell{
-  border: 1px solid black;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
   text-align: center;
 }
+.shiftTableHeader_cell:first-child{
+  border-left: none;
+}
 .shiftTableBody_cell{
-  border: 1px solid black;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
   vertical-align: top;
   height: 60px;
   padding: 5px;
 }
+.shiftTableBody_cell:first-child{
+  border-left: none;
+}
 .shiftTableBody_cell.work{
-  background-color: #ebebb1;
+  border-top: 5px solid #ebebb1;
 }
 .shift_time{
   font-size: 13px;
