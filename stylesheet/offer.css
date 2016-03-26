@@ -85,7 +85,7 @@
   display: inline-block;
   color: white;
   background: dimgrey;
-  padding: 5px;
+  padding: 5px 10px;
 }
 .flowTableItem_title{
   display: inline-block;
@@ -95,6 +95,9 @@
   margin-top: 0px;
   margin-bottom: 0px;
   border-top: 1px solid black;
+}
+.shiftProviders{
+  padding-left: 0px;
 }
 .shifts_header{
   font-weight: bold;
@@ -128,6 +131,7 @@
   border-right: 1px solid black;
   border-radius: 5px;
   table-layout: fixed;
+  empty-cells: show;
 }
 .shiftTableHeader_cell{
   border-left: 1px solid black;
