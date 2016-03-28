@@ -134,36 +134,36 @@
 .shiftTable_table tr:last-child td{
   border-bottom: none;
 }
-.shiftTableHeader_cell{
+.shiftTable_cell{  
   border-left: 1px solid black;
   border-bottom: 1px solid black;
-  text-align: center;
 }
-.shiftTableHeader_cell:first-child{
-  border-left: none;
-}
-.shiftTableBody_cell{
-  border-left: 1px solid black;
-  border-bottom: 1px solid black;
+.shiftTable_cell-bodyCell {
   vertical-align: top;
   height: 60px;
   padding: 4px;
 }
-.shiftTableBody_cell:first-child{
+.shiftTable_cell-bodyCell:first-child{
   border-left: none;
 }
-.shiftTableBody_cell.work{
+.shiftTable_cell-bodyCell.work{
   position: relative;
 }
-.shiftTableBody_cell.work:after{
+.shiftTable_cell-bodyCell.work:after{
   position: absolute;
   content: " ";
   display: block;
   width: 100%;
-  height: 3px;
+  height: 5px;
   background: #ebebb1;
   top: 0;
   left: 0;
+}
+.shiftTable_cell-headerCell {
+  text-align: center;
+}
+.shiftTable_cell-headerCell:first-child{
+  border-left: none;
 }
 .shift_time{
   font-size: 13px;
