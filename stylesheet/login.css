@@ -1,0 +1,34 @@
+.loginForm{
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.loginForm:first-child{
+  margin-bottom: 20px;
+}
+.loginForm.snsButtons{
+  padding-bottom: 0px;
+}
+.loginFormInput{
+  padding-bottom: 10px;
+}
+.loginFormInputButton{
+  text-align: center;
+}
+.loginFormInput_loginButton{
+  width: 70%;
+  background-image: none;
+  background-color: #395FA3;
+}
+.loginFormInput_buttonFacebook{
+  background-image: none;
+  background-color: #395FA3;
+  margin-bottom: 10px;
+}
+.loginFormInput_buttonTwitter{
+  background-image: none;
+  background-color: #24A9D4;
+  border-color: #24A9D4;
+  margin-bottom: 10px;
+}
