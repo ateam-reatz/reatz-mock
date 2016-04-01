@@ -1,10 +1,13 @@
 <html>
   <head>
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="stylesheet/reatz.css">
     <link rel="stylesheet" href="stylesheet/index.css">
+    <script type="text/javascript" src="javascript/index.js"></script>
   </head>
   <body>
     <nav class="navbar navbar-default">
@@ -18,8 +21,13 @@
     </div>
     </nav>
     <div class="contents">
+      <p><a id="modal-open" class="button-link">クリックするとモーダルウィンドウを開きます。</a></p> 
+      <div id="modal-content">
+        <p>「閉じる」か「背景」をクリックするとモーダルウィンドウを終了します。</p>
+        <p><a id="modal-close" class="button-link">閉じる</a></p>
+      </div>
       <div class="container searchItems">
-        <div class="row searchItems_list first">
+       <div class="row searchItems_list first">
           <div class="col-xs-6 col-sm-4">
             <a class="searchItems_list_item"><img src="images/top_button01.png" class="img-responsive img-center"></a>
           </div>
