@@ -6,14 +6,21 @@
   background-color: #464646;
 }
 #modal-content{
-  width:50%;
-  margin:1.5em auto 0;
-  padding:10px 20px;
-  border:2px solid #aaa;
-  background:#fff;
-  z-index:2;
-  position:fixed;
+  width: 60%;
+  margin: 1.5em auto 0;
+  padding: 5px 0px;
+  border: 1px solid #aaa;
+  background: #fff;
+  z-index: 2;
+  position: fixed;
   display: none;
+  border-radius: 10px;
+}
+.modal_header{
+  margin: 20px 20px 10px 20px;
+}
+.modal_line{
+  border: dashed 1px;
 }
 #modal-overlay{
   z-index:1;
@@ -38,6 +45,74 @@
 .button-link:hover{
   cursor:pointer;
   color:#f00;
+}
+.prefecturesList{
+  padding-left: 0px;
+  margin-bottom: 0px;
+}
+ul.prefecturesList: after{
+  contnt: "";
+  clear: both;
+  display: block;
+}
+ul.prefecturesList li{
+  display: block;
+  float: left;
+  list-style-type: none;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+  width: 12%;
+  margin: 5 1%;
+  padding-top: 5px;
+  position: relative;
+}
+ul.prefecturesList li:nth-child(7n+1){
+  margin: 5px 1% 5px 2%;
+}
+ul.prefecturesList li:nth-child(7n){
+  margin: 5px 2% 5px 1%;
+}
+ul.prefecturesList li:after{
+  position: absolute;
+  content: "";
+  display: block;
+  width: 100%;
+  height: 5px;
+  top: 0;
+  left: 0;
+  border-radius: 4px 4px 0 0;
+}
+.prefecturesList_item.hokkaido:after{
+  background: blue;
+}
+.prefecturesList_item.tohoku:after{
+  background: dodgerblue;
+}
+.prefecturesList_item.kanto:after{
+  background: limegreen;
+}
+.prefecturesList_item.tyubu:after{
+  background: greenyellow;
+}
+.prefecturesList_item.kansai:after{
+  background: yellow;
+}
+.prefecturesList_item.tyugoku:after{
+  background: gold;
+}
+.prefecturesList_item.shikoku:after{
+  background: darkorange;
+}
+.prefecturesList_item.kyushu:after{
+  background: red;
+}
+.modalButtons{
+  text-align: center;
+}
+.button_submit{
+  margin: 10px 0px;
+  width: 40%;
 }
 .searchItems_list{
   padding-bottom: 70px;
