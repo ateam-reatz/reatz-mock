@@ -1,0 +1,58 @@
+.searchForm{
+  border: 2px solid black;
+  padding: 5px;
+  text-align: justify;
+}
+.searchForm_item{
+  width: auto;
+  display: inline-block;
+  position: relative;
+}
+.searchForm:before{
+  content: '';
+  display: block;
+  width: 100%;
+}
+.searchForm:after{
+  content: '';
+  display: inline-block;
+  width: 100%;
+}
+.newContent{
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+}
+.newContent.first{
+}
+.newContent.second{
+}
+.contentCol{
+  padding-left: 3px;
+  padding-right: 3px;
+}
+.newContent_topImg{
+  width: 100%;
+}
+.newContent_worker{
+  margin-top: 5px;
+}
+.newContent_workerImg{
+  width: 25%;
+}
+.newContent_workerName{
+  display: inline;
+  font-size: 90%;
+}
+.newContent_shopName{
+  margin-top: 0;
+  font-weight: bold;
+}
+.newContent_intro{
+  color: darkorange;
+  font-weight: bold;
+  font-size: 90%;
+}
+.newContent_detail{
+  font-size: 70%;
+}
