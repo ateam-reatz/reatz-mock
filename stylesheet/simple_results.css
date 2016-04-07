@@ -3,11 +3,6 @@
   padding: 5px;
   text-align: justify;
 }
-.searchForm_item{
-  width: auto;
-  display: inline-block;
-  position: relative;
-}
 .searchForm:before{
   content: '';
   display: block;
@@ -17,6 +12,11 @@
   content: '';
   display: inline-block;
   width: 100%;
+}
+.searchForm_item{
+  width: auto;
+  display: inline-block;
+  position: relative;
 }
 .searchForm_item.prefecture{
   width: 17%;
