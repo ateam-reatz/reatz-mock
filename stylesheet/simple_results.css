@@ -18,6 +18,24 @@
   display: inline-block;
   width: 100%;
 }
+.searchForm_item.prefecture{
+  width: 17%;
+}
+.searchForm_item.city{
+  width: 17%;
+}
+.searchForm_item.wage{
+  width: 17%;
+}
+.searchForm_item.job{
+  width: 17%;
+}
+.toSearch{
+  width: 13%;
+}
+.toDetail{
+  width: 13%;
+}
 .newContent{
   border: 1px solid black;
   border-radius: 5px;
